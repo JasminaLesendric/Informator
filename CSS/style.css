@@ -218,3 +218,30 @@ a.ah3:hover {
     border: solid 30px;
     border-color: transparent transparent black transparent;
 }
+.btn {
+  background: #900d0d;
+  background-image: -webkit-linear-gradient(top, #e8a7a7, #900d0d);
+  background-image: -moz-linear-gradient(top, #e8a7a7, #900d0d);
+  background-image: -ms-linear-gradient(top, #e8a7a7, #900d0d);
+  background-image: -o-linear-gradient(top, #e8a7a7, #900d0d);
+  background-image: linear-gradient(to bottom, #e8a7a7, #900d0d);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  /*9. menjam font na dugmetu*/
+  font-family:  'Caveat', cursive;
+  color: #FFDBC5;
+  font-size: 3.4375rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e69595;
+  background-image: -webkit-linear-gradient(top, #e69595, #ba6868);
+  background-image: -moz-linear-gradient(top, #e69595, #ba6868);
+  background-image: -ms-linear-gradient(top, #e69595, #ba6868);
+  background-image: -o-linear-gradient(top, #e69595, #ba6868);
+  background-image: linear-gradient(to bottom, #e69595, #ba6868);
+  text-decoration: none;
+}
